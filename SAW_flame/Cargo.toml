@@ -1,0 +1,12 @@
+[package]
+name = "SAW_flame"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.5.1"
+rand = "0.9.0"
+
+[profile.release]
+debug = true
+strip = false
